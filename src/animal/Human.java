@@ -7,9 +7,9 @@ public class Human extends Animal implements Thinkable{
 
     //コンストラクタ。名前・年齢・趣味の情報を格納する引数を設定し、処理内容として引数の情報で初期化する。
     //ただし、名前と年齢の初期化はスーパークラス（Animal.java)のコンストラクタを利用。
+
     public Human(String animalName, int animalAge, String interest){
-        super.setAnimalName(animalName);
-        super.setAnimalAge(animalAge);
+        super(animalName, animalAge);
         this.interest = interest;
     }
 
