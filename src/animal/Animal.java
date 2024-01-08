@@ -6,6 +6,9 @@ public class Animal {
     private String animalName;
     private int animalAge;
 
+    public Animal(){
+
+    }
     //コンストラクタ 名前・年齢格納する引数設定。処理内容として名前・年齢を初期化する
     public Animal(String animalName, int animalAge) {
         this.animalName = animalName;
